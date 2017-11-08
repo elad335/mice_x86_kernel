@@ -1,3 +1,7 @@
+;--------------------------------------------------------
+;a simple tool to see what the registers's content at boot
+;--------------------------------------------------------
+
 org 0x7c00
 bits 16
 DW 0X6066 ;pushad eax,ecx,edx,ebx,esp,ebp,esi,edi
